@@ -1,10 +1,11 @@
 import { useState } from 'react'
+import Logo from './Logo.jsx'
 import './App.css'
 
 function App() {
   return (
     <>
-      <h1>Itemdle</h1>
+      <Logo />
       <div>
         <a href="classic"><button>Classic</button></a>
         <a><button>Passive</button></a>

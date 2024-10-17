@@ -1,3 +1,5 @@
+import Logo from './Logo.jsx';
+
 function HintBox()
 {
   return (
@@ -21,11 +23,12 @@ function GuessBox()
 function Classic() {
   return (
     <>
+      <Logo />
       <HintBox />
       <GuessBox />
     </>
   )
 }
 
-export default Classic
+export default Classic;
 
