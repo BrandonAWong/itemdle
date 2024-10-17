@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Cull",
+    "group": "Starter Item",
+    "AD": 7,
+    "AP": 0,
+    "armor": 0,
+    "MR": 0,
+    "health": 0,
+    "cost": 450,
+    "image": "",
+    "passives": [
+      {
+        "name": "Reap",
+        "description": "Killing a minion grants an additional 1 Gold, up to a maximum of 100 Gold. After having killed 100 minions, grants an additional 350 Gold and permanently disables this passive."
+      }
+    ],
+    "actives": []
+  },
+  {
+    "name": "Dark Seal",
+    "group": "Starter Item",
+    "AD": 0,
+    "AP": 15,
+    "armor": 0,
+    "MR": 0,
+    "health": 50,
+    "cost": 350,
+    "image": "",
+    "passives": [
+      {
+        "name": "Glory",
+        "description": "Gain 2 stacks for each champion kill and 1 stack for each assist, up to a maximum of 10 stacks. For every stack, gain 4 ability power, up to 40 at maximum stacks. Lose 5 stacks on death."
+      }
+    ],
+    "actives": []
+  },
+  {
+    "name": "Doran's Blade",
+    "group": "Starter Item",
+    "AD": 10,
+    "AP": 0,
+    "armor": 0,
+    "MR": 0,
+    "health": 80,
+    "cost": 450,
+    "image": "",
+    "passives": [],
+    "actives": []
+  },
+  {
+    "name": "Doran's Ring",
+    "group": "Starter Item",
+    "AD": 0,
+    "AP": 16,
+    "armor": 0,
+    "MR": 0,
+    "health": 90,
+    "cost": 450,
+    "image": "",
+    "passives": [
+      {
+        "name": "Restoration",
+        "description": "Restore 1.25 mana every second. If you cannot gain mana, heal 0.55 health instead. Basic attacks deal 5 bonus physical damage on-hit against minions."
+      }
+    ],
+    "actives": []
+  },
+  {
+    "name": "Doran's Shield",
+    "group": "Starter Item",
+    "AD": 0,
+    "AP": 0,
+    "armor": 0,
+    "MR": 0,
+    "health": 110,
+    "cost": 450,
+    "image": "",
+    "passives": [
+      {
+        "name": "Enduring Focus",
+        "description": "After taking damage from a champion, gain health regeneration equal to 0 − 45 (based on current missing health) health over 8 seconds."
+      }
+    ],
+    "actives": []
+  }
+]
