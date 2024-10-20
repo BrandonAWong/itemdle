@@ -28,7 +28,7 @@ ul {
 }
 
 li {
-    padding: 2%;
+    padding: 4%;
     width: 100%;
 }
     li:hover {
@@ -43,6 +43,6 @@ li > div {
 }
 
 img {
-    height: 32px;
-    border-radius: 4px;
+    height: 40px;
+    border-radius: 8px;
 }

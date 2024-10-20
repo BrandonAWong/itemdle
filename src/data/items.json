@@ -21,7 +21,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 450,
-    "image": "./public/items/Cull.png",
+    "image": "./items/Cull.png",
     "passives": [
       {
         "name": "Reap",
@@ -52,7 +52,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 350,
-    "image": "./public/items/DarkSeal.png",
+    "image": "./items/DarkSeal.png",
     "passives": [
       {
         "name": "Glory",
@@ -83,7 +83,7 @@
     "lifesteal": 3,
     "healShieldPower": 0,
     "cost": 450,
-    "image": "./public/items/DoransBlade.png",
+    "image": "./items/DoransBlade.png",
     "passives": [],
     "actives": []
   },
@@ -109,7 +109,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 450,
-    "image": "./public/items/DoransRing.png",
+    "image": "./items/DoransRing.png",
     "passives": [
       {
         "name": "Restoration",
@@ -140,7 +140,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 450,
-    "image": "./public/items/DoransShield.png",
+    "image": "./items/DoransShield.png",
     "passives": [
       {
         "name": "Enduring Focus",
@@ -171,7 +171,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 450,
-    "image": "./public/items/GustwalkerHatchling.png",
+    "image": "./items/GustwalkerHatchling.png",
     "passives": [
       {
         "name": null,
@@ -202,7 +202,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 450,
-    "image": "./public/items/MosstomperSeedling.png",
+    "image": "./items/MosstomperSeedling.png",
     "passives": [
       {
         "name": null,
@@ -233,7 +233,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 450,
-    "image": "./public/items/ScorchclawPup.png",
+    "image": "./items/ScorchclawPup.png",
     "passives": [
       {
         "name": null,
@@ -264,7 +264,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 400,
-    "image": "./public/items/TearOfTheGoddess.png",
+    "image": "./items/TearOfTheGoddess.png",
     "passives": [
       {
         "name": "Manaflow",
@@ -295,7 +295,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 400,
-    "image": "./public/items/WorldAtlas.png",
+    "image": "./items/WorldAtlas.png",
     "passives": [],
     "actives": []
   },
@@ -321,7 +321,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1100,
-    "image": "./public/items/BerserkersGreaves.png",
+    "image": "./items/BerserkersGreaves.png",
     "passives": [],
     "actives": []
   },
@@ -347,7 +347,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 300,
-    "image": "./public/items/Boots.png",
+    "image": "./items/Boots.png",
     "passives": [],
     "actives": []
   },
@@ -373,7 +373,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1000,
-    "image": "./public/items/BootsOfSwiftness.png",
+    "image": "./items/BootsOfSwiftness.png",
     "passives": [
       {
         "name": "Fleetfooted",
@@ -404,7 +404,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 900,
-    "image": "./public/items/IonianBootsOfLucidity.png",
+    "image": "./items/IonianBootsOfLucidity.png",
     "passives": [
       {
         "name": "Ionian Insight",
@@ -435,7 +435,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1300,
-    "image": "./public/items/MercurysTreads.png",
+    "image": "./items/MercurysTreads.png",
     "passives": [],
     "actives": []
   },
@@ -461,7 +461,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1200,
-    "image": "./public/items/PlatedSteelcaps.png",
+    "image": "./items/PlatedSteelcaps.png",
     "passives": [
       {
         "name": "Plating",
@@ -492,7 +492,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1100,
-    "image": "./public/items/SorcerersShoes.png",
+    "image": "./items/SorcerersShoes.png",
     "passives": [],
     "actives": []
   },
@@ -518,7 +518,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 900,
-    "image": "./public/items/SymbioticSoles.png",
+    "image": "./items/SymbioticSoles.png",
     "passives": [
       {
         "name": "Voidborn",
@@ -552,7 +552,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 900,
-    "image": "./public/items/SynchronizedSouls.png",
+    "image": "./items/SynchronizedSouls.png",
     "passives": [
       {
         "name": "Voidborn",
@@ -586,7 +586,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 3100,
-    "image": "./public/items/Zephyr.png",
+    "image": "./items/Zephyr.png",
     "passives": [
       {
         "name": "Like The Wind",
@@ -616,7 +616,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 400,
-    "image": "./public/items/AmplifyingTome.png",
+    "image": "./items/AmplifyingTome.png",
     "passives": [],
     "actives": []
   },
@@ -641,7 +641,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1300,
-    "image": "./public/items/BFSword.png",
+    "image": "./items/BFSword.png",
     "passives": [],
     "actives": []
   },
@@ -666,7 +666,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 850,
-    "image": "./public/items/BlastingWand.png",
+    "image": "./items/BlastingWand.png",
     "passives": [],
     "actives": []
   },
@@ -691,7 +691,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 600,
-    "image": "./public/items/CloakOfAgility.png",
+    "image": "./items/CloakOfAgility.png",
     "passives": [],
     "actives": []
   },
@@ -716,7 +716,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 300,
-    "image": "./public/items/ClothArmor.png",
+    "image": "./items/ClothArmor.png",
     "passives": [],
     "actives": []
   },
@@ -741,7 +741,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 250,
-    "image": "./public/items/Dagger.png",
+    "image": "./items/Dagger.png",
     "passives": [],
     "actives": []
   },
@@ -766,7 +766,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 200,
-    "image": "./public/items/FaerieCharm.png",
+    "image": "./items/FaerieCharm.png",
     "passives": [],
     "actives": []
   },
@@ -791,7 +791,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 250,
-    "image": "./public/items/GlowingMote.png",
+    "image": "./items/GlowingMote.png",
     "passives": [],
     "actives": []
   },
@@ -816,7 +816,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 350,
-    "image": "./public/items/LongSword.png",
+    "image": "./items/LongSword.png",
     "passives": [],
     "actives": []
   },
@@ -841,7 +841,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1250,
-    "image": "./public/items/NeedlesslyLargeRod.png",
+    "image": "./items/NeedlesslyLargeRod.png",
     "passives": [],
     "actives": []
   },
@@ -866,7 +866,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 400,
-    "image": "./public/items/NullMagicMantle.png",
+    "image": "./items/NullMagicMantle.png",
     "passives": [],
     "actives": []
   },
@@ -891,7 +891,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 875,
-    "image": "./public/items/Pickaxe.png",
+    "image": "./items/Pickaxe.png",
     "passives": [],
     "actives": []
   },
@@ -916,7 +916,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 300,
-    "image": "./public/items/RejuvenationBead.png",
+    "image": "./items/RejuvenationBead.png",
     "passives": [],
     "actives": []
   },
@@ -941,7 +941,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 400,
-    "image": "./public/items/RubyCrystal.png",
+    "image": "./items/RubyCrystal.png",
     "passives": [],
     "actives": []
   },
@@ -966,7 +966,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 300,
-    "image": "./public/items/SapphireCrystal.png",
+    "image": "./items/SapphireCrystal.png",
     "passives": [],
     "actives": []
   },
@@ -991,7 +991,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 900,
-    "image": "./public/items/AetherWisp.png",
+    "image": "./items/AetherWisp.png",
     "passives": [],
     "actives": []
   },
@@ -1016,7 +1016,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 900,
-    "image": "./public/items/BamisCinder.png",
+    "image": "./items/BamisCinder.png",
     "passives": [
       {
         "name": "Immolate",
@@ -1046,7 +1046,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 900,
-    "image": "./public/items/BandleglassMirror.png",
+    "image": "./items/BandleglassMirror.png",
     "passives": [],
     "actives": []
   },
@@ -1071,7 +1071,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1100,
-    "image": "./public/items/BlightingJewel.png",
+    "image": "./items/BlightingJewel.png",
     "passives": [],
     "actives": []
   },
@@ -1096,7 +1096,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 0,
-    "image": "./public/items/BrambleVest.png",
+    "image": "./items/BrambleVest.png",
     "passives": [
       {
         "name": "Thorns",
@@ -1126,7 +1126,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1300,
-    "image": "./public/items/CatalystOfAeons.png",
+    "image": "./items/CatalystOfAeons.png",
     "passives": [
       {
         "name": "Eternity",
@@ -1156,7 +1156,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1050,
-    "image": "./public/items/CaulfieldsWarhammer.png",
+    "image": "./items/CaulfieldsWarhammer.png",
     "passives": [],
     "actives": []
   },
@@ -1181,7 +1181,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 800,
-    "image": "./public/items/ChainVest.png",
+    "image": "./items/ChainVest.png",
     "passives": [],
     "actives": []
   },
@@ -1206,7 +1206,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 0,
-    "image": "./public/items/CrystallineBracer.png",
+    "image": "./items/CrystallineBracer.png",
     "passives": [],
     "actives": []
   },
@@ -1231,7 +1231,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 800,
-    "image": "./public/items/ExecutionersCalling.png",
+    "image": "./items/ExecutionersCalling.png",
     "passives": [
       {
         "name": "Grievous Wounds",
@@ -1261,7 +1261,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 900,
-    "image": "./public/items/FatedAshes.png",
+    "image": "./items/FatedAshes.png",
     "passives": [
       {
         "name": "Inflame",
@@ -1291,7 +1291,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 0,
-    "image": "./public/items/FiendishCodex.png",
+    "image": "./items/FiendishCodex.png",
     "passives": [],
     "actives": []
   },
@@ -1316,7 +1316,7 @@
     "lifesteal": 0,
     "healShieldPower": 8,
     "cost": 600,
-    "image": "./public/items/ForbiddenIdol.png",
+    "image": "./items/ForbiddenIdol.png",
     "passives": [],
     "actives": []
   },
@@ -1341,7 +1341,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 900,
-    "image": "./public/items/GiantsBelt.png",
+    "image": "./items/GiantsBelt.png",
     "passives": [],
     "actives": []
   },
@@ -1366,7 +1366,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 900,
-    "image": "./public/items/GlacialBuckler.png",
+    "image": "./items/GlacialBuckler.png",
     "passives": [],
     "actives": []
   },
@@ -1391,7 +1391,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1300,
-    "image": "./public/items/HauntingGuise.png",
+    "image": "./items/HauntingGuise.png",
     "passives": [
       {
         "name": "Madness",
@@ -1421,7 +1421,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1200,
-    "image": "./public/items/HearthboundAxe.png",
+    "image": "./items/HearthboundAxe.png",
     "passives": [],
     "actives": []
   },
@@ -1446,7 +1446,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1300,
-    "image": "./public/items/Hexdrinker.png",
+    "image": "./items/Hexdrinker.png",
     "passives": [
       {
         "name": "Lifeline",
@@ -1476,7 +1476,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1100,
-    "image": "./public/items/HextechAlternator.png",
+    "image": "./items/HextechAlternator.png",
     "passives": [
       {
         "name": "Revved",
@@ -1506,7 +1506,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 800,
-    "image": "./public/items/Kindlegem.png",
+    "image": "./items/Kindlegem.png",
     "passives": [],
     "actives": []
   },
@@ -1531,7 +1531,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1450,
-    "image": "./public/items/LastWhisper.png",
+    "image": "./items/LastWhisper.png",
     "passives": [],
     "actives": []
   },
@@ -1556,7 +1556,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1200,
-    "image": "./public/items/LostChapter.png",
+    "image": "./items/LostChapter.png",
     "passives": [
       {
         "name": "Enlighten",
@@ -1586,7 +1586,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 850,
-    "image": "./public/items/NegatronCloak.png",
+    "image": "./items/NegatronCloak.png",
     "passives": [],
     "actives": []
   },
@@ -1611,7 +1611,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1300,
-    "image": "./public/items/Noonquiver.png",
+    "image": "./items/Noonquiver.png",
     "passives": [],
     "actives": []
   },
@@ -1636,7 +1636,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 800,
-    "image": "./public/items/OblivionOrb.png",
+    "image": "./items/OblivionOrb.png",
     "passives": [
       {
         "name": "Grievous Wounds",
@@ -1666,7 +1666,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1100,
-    "image": "./public/items/Phage.png",
+    "image": "./items/Phage.png",
     "passives": [
       {
         "name": "Rage",
@@ -1696,7 +1696,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1300,
-    "image": "./public/items/QuicksilverSash.png",
+    "image": "./items/QuicksilverSash.png",
     "passives": [],
     "actives": [
       {
@@ -1726,7 +1726,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 775,
-    "image": "./public/items/Rectrix.png",
+    "image": "./items/Rectrix.png",
     "passives": [],
     "actives": []
   },
@@ -1751,7 +1751,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 700,
-    "image": "./public/items/RecurveBow.png",
+    "image": "./items/RecurveBow.png",
     "passives": [],
     "actives": []
   },
@@ -1776,7 +1776,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 400,
-    "image": "./public/items/RunicCompass.png",
+    "image": "./items/RunicCompass.png",
     "passives": [],
     "actives": []
   },
@@ -1801,7 +1801,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 600,
-    "image": "./public/items/ScoutsSlingshot.png",
+    "image": "./items/ScoutsSlingshot.png",
     "passives": [],
     "actives": []
   },
@@ -1826,7 +1826,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1600,
-    "image": "./public/items/SeekersArmguard.png",
+    "image": "./items/SeekersArmguard.png",
     "passives": [],
     "actives": [
       {
@@ -1856,7 +1856,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1000,
-    "image": "./public/items/SerratedDirk.png",
+    "image": "./items/SerratedDirk.png",
     "passives": [],
     "actives": []
   },
@@ -1881,7 +1881,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1600,
-    "image": "./public/items/ShatteredArmguard.png",
+    "image": "./items/ShatteredArmguard.png",
     "passives": [],
     "actives": []
   },
@@ -1906,7 +1906,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 900,
-    "image": "./public/items/Sheen.png",
+    "image": "./items/Sheen.png",
     "passives": [
       {
         "name": "Spellblade",
@@ -1936,7 +1936,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1250,
-    "image": "./public/items/SpectresCowl.png",
+    "image": "./items/SpectresCowl.png",
     "passives": [],
     "actives": []
   },
@@ -1961,7 +1961,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1100,
-    "image": "./public/items/SteelSigil.png",
+    "image": "./items/SteelSigil.png",
     "passives": [],
     "actives": []
   },
@@ -1986,7 +1986,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1337,
-    "image": "./public/items/TheBrutalizer.png",
+    "image": "./items/TheBrutalizer.png",
     "passives": [],
     "actives": []
   },
@@ -2011,7 +2011,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1200,
-    "image": "./public/items/Tiamat.png",
+    "image": "./items/Tiamat.png",
     "passives": [
       {
         "name": "Cleave",
@@ -2047,7 +2047,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1150,
-    "image": "./public/items/Tunneler.png",
+    "image": "./items/Tunneler.png",
     "passives": [],
     "actives": []
   },
@@ -2072,7 +2072,7 @@
     "lifesteal": 7,
     "healShieldPower": 0,
     "cost": 900,
-    "image": "./public/items/VampiricScepter.png",
+    "image": "./items/VampiricScepter.png",
     "passives": [],
     "actives": []
   },
@@ -2097,7 +2097,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1600,
-    "image": "./public/items/VerdantBarrier.png",
+    "image": "./items/VerdantBarrier.png",
     "passives": [
       {
         "name": "Annul",
@@ -2127,7 +2127,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1000,
-    "image": "./public/items/WardensMail.png",
+    "image": "./items/WardensMail.png",
     "passives": [
       {
         "name": "Rock Solid",
@@ -2157,7 +2157,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1100,
-    "image": "./public/items/WatchfulWardstone.png",
+    "image": "./items/WatchfulWardstone.png",
     "passives": [
       {
         "name": "Arcane Cache",
@@ -2187,7 +2187,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 800,
-    "image": "./public/items/WingedMoonplate.png",
+    "image": "./items/WingedMoonplate.png",
     "passives": [],
     "actives": []
   },
@@ -2212,7 +2212,7 @@
     "lifesteal": 0,
     "healShieldPower": 0,
     "cost": 1200,
-    "image": "./public/items/Zeal.png",
+    "image": "./items/Zeal.png",
     "passives": [],
     "actives": []
   }
