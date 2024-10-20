@@ -1,3 +1,5 @@
+import { useLocation } from 'react-router-dom';
+import GuessBox from './GuessBox.jsx';
 import Logo from './Logo.jsx';
 
 function HintBox()
@@ -11,21 +13,15 @@ function HintBox()
   )
 }
 
-function GuessBox()
-{
-  return (
-    <>
-      <input placeholder="Type an item name..."></input>
-    </>
-  )
-}
-
 function Classic() {
+  const location = useLocation();
+  const { items } = location.state;
+
   return (
     <>
       <Logo />
       <HintBox />
-      <GuessBox />
+      <GuessBox items={items} />
     </>
   )
 }

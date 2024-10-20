@@ -1,12 +1,13 @@
 h1 {
+    text-align: center;
     user-select: none;
     background: linear-gradient(to right, #ff930f 0%, #fff95b 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-h1:hover {
-    cursor: pointer;
-}
+    h1:hover {
+        cursor: pointer;
+    }
 
 @keyframes hueshift {
     to {

@@ -4,9 +4,15 @@
     "group": "Starter Item",
     "AD": 7,
     "AP": 0,
+    "crit": 0,
+    "lethality": 0,
+    "attackSpeed": 0,
     "armor": 0,
     "MR": 0,
+    "MS": 0,
     "health": 0,
+    "mana": 0,
+    "haste": 0,
     "cost": 450,
     "image": "",
     "passives": [
@@ -22,9 +28,15 @@
     "group": "Starter Item",
     "AD": 0,
     "AP": 15,
+    "crit": 0,
+    "lethality": 0,
+    "attackSpeed": 0,
     "armor": 0,
     "MR": 0,
+    "MS": 0,
     "health": 50,
+    "mana": 0,
+    "haste": 0,
     "cost": 350,
     "image": "",
     "passives": [
@@ -40,9 +52,15 @@
     "group": "Starter Item",
     "AD": 10,
     "AP": 0,
+    "crit": 0,
+    "lethality": 0,
+    "attackSpeed": 0,
     "armor": 0,
     "MR": 0,
+    "MS": 0,
     "health": 80,
+    "mana": 0,
+    "haste": 0,
     "cost": 450,
     "image": "",
     "passives": [],
@@ -53,9 +71,15 @@
     "group": "Starter Item",
     "AD": 0,
     "AP": 16,
+    "crit": 0,
+    "lethality": 0,
+    "attackSpeed": 0,
     "armor": 0,
     "MR": 0,
+    "MS": 0,
     "health": 90,
+    "mana": 0,
+    "haste": 0,
     "cost": 450,
     "image": "",
     "passives": [
@@ -71,9 +95,15 @@
     "group": "Starter Item",
     "AD": 0,
     "AP": 0,
+    "crit": 0,
+    "lethality": 0,
+    "attackSpeed": 0,
     "armor": 0,
     "MR": 0,
+    "MS": 0,
     "health": 110,
+    "mana": 0,
+    "haste": 0,
     "cost": 450,
     "image": "",
     "passives": [
@@ -82,6 +112,145 @@
         "description": "After taking damage from a champion, gain health regeneration equal to 0 − 45 (based on current missing health) health over 8 seconds."
       }
     ],
+    "actives": []
+  },
+  {
+    "name": "Gustwalker Hatchling",
+    "group": "Starter Item",
+    "AD": 0,
+    "AP": 0,
+    "crit": 0,
+    "lethality": 0,
+    "attackSpeed": 0,
+    "armor": 0,
+    "MR": 0,
+    "MS": 0,
+    "health": 0,
+    "mana": 0,
+    "haste": 0,
+    "cost": 450,
+    "image": "",
+    "passives": [
+      {
+        "name": null,
+        "description": "After your pet reaches its final evolution, consumes this item to grant you the Gustwalker buff."
+      }
+    ],
+    "actives": []
+  },
+  {
+    "name": "Mosstomper Seedling",
+    "group": "Starter Item",
+    "AD": 0,
+    "AP": 0,
+    "crit": 0,
+    "lethality": 0,
+    "attackSpeed": 0,
+    "armor": 0,
+    "MR": 0,
+    "MS": 0,
+    "health": 0,
+    "mana": 0,
+    "haste": 0,
+    "cost": 450,
+    "image": "",
+    "passives": [
+      {
+        "name": null,
+        "description": "After your pet reaches its final evolution, consumes this item to grant you the Mosstomper buff."
+      }
+    ],
+    "actives": []
+  },
+  {
+    "name": "Scorchclaw Pup",
+    "group": "Starter Item",
+    "AD": 0,
+    "AP": 0,
+    "crit": 0,
+    "lethality": 0,
+    "attackSpeed": 0,
+    "armor": 0,
+    "MR": 0,
+    "MS": 0,
+    "health": 0,
+    "mana": 0,
+    "haste": 0,
+    "cost": 450,
+    "image": "",
+    "passives": [
+      {
+        "name": null,
+        "description": "After your pet reaches its final evolution, consumes this item to grant you the Scorchclaw buff."
+      }
+    ],
+    "actives": []
+  },
+  {
+    "name": "Tear of the Goddess",
+    "group": "Starter Item",
+    "AD": 0,
+    "AP": 0,
+    "crit": 0,
+    "lethality": 0,
+    "attackSpeed": 0,
+    "armor": 0,
+    "MR": 0,
+    "MS": 0,
+    "health": 0,
+    "mana": 240,
+    "haste": 0,
+    "cost": 400,
+    "image": "",
+    "passives": [
+      {
+        "name": "Manaflow",
+        "description": "Grants a charge every 8 seconds, up to 4 charges. Affecting an enemy or ally with an ability consumes a charge to grant 3 bonus mana, increased to 6 if they are a champion, up to maximum of 360 bonus mana. Basic attacks deal 5 bonus physical damage on-hit against minions."
+      }
+    ],
+    "actives": []
+  },
+  {
+    "name": "World Atlas",
+    "group": "Starter Item",
+    "AD": 0,
+    "AP": 0,
+    "crit": 0,
+    "lethality": 0,
+    "attackSpeed": 0,
+    "armor": 0,
+    "MR": 0,
+    "MS": 0,
+    "health": 30,
+    "mana": 0,
+    "haste": 0,
+    "cost": 400,
+    "image": "",
+    "passives": [
+      {
+        "name": "Quest",
+        "description": "Grants a Quest charge every 20 seconds, up to 3 charges."
+      }
+    ],
+    "actives": []
+  },
+  {
+    "name": "Berserker's Greaves",
+    "group": "Boots",
+    "AD": 0,
+    "AP": 0,
+    "crit": 0,
+    "lethality": 0,
+    "attackSpeed": 25,
+    "armor": 0,
+    "MR": 0,
+    "MS": 45,
+    "health": 30,
+    "mana": 0,
+    "haste": 0,
+    "cost": 1100,
+    "image": "",
+    "passives": [],
     "actives": []
   }
 ]

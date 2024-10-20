@@ -1,12 +1,36 @@
 const Item = class {
-    constructor(name, group, AD, AP, armor, MR, health, cost, image, passives=[], actives=[]) {
+    constructor(
+      name, 
+      group, 
+      AD, 
+      AP, 
+      crit,
+      lethality,
+      attackSpeed,
+      armor, 
+      MR, 
+      MS, 
+      health, 
+      mana, 
+      haste,
+      cost, 
+      image, 
+      passives=[], 
+      actives=[]
+    ) {
         this.name = name;
         this.group = group;
         this.AD = AD;
         this.AP = AP;
+        this.crit = crit;
+        this.lethality = lethality;
+        this.attackSpeed = attackSpeed;
         this.armor = armor;
         this.MR = MR;
+        this.MS = MS;
         this.health = health;
+        this.mana = mana;
+        this.haste = haste;
         this.cost = cost;
         this.image = image;
         this.passives = passives;
@@ -32,3 +56,4 @@ const Item = class {
 }
 
 export default Item;
+
