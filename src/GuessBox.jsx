@@ -9,8 +9,8 @@ function GuessBox({ items }) {
       return [];
     }
 
-    return items.filter(item => item.name.toLowerCase().replace('\'', '')
-      .startsWith(filter.toLowerCase().replace('\'', '')));
+    return items.filter(item => item.name.toLowerCase().replace(/\W/g, '')
+      .startsWith(filter.toLowerCase().replace(/\W/g, '')));
   }
 
   const checkEnterPressed = (e) => {
@@ -39,7 +39,10 @@ function GuessBox({ items }) {
               key={index}
               onClick={() => submitGuess(item)}
             >
-              {item.name}
+              <div>
+                <img src={item.image} />
+                {item.name}
+              </div>
             </li>
           ))}
         </ul>

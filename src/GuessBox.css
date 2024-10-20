@@ -35,3 +35,14 @@ li {
         background-color: #525252;
         cursor: pointer;
     }
+
+li > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    height: 32px;
+    border-radius: 4px;
+}

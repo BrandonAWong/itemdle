@@ -7,12 +7,19 @@ const Item = class {
       crit,
       lethality,
       attackSpeed,
+      armorPen,
+      magicPen,
       armor, 
       MR, 
+      tenacity,
       MS, 
       health, 
+      healthRegen,
       mana, 
+      manaRegen,
       haste,
+      lifesteal,
+      healShieldPower,
       cost, 
       image, 
       passives=[], 
@@ -25,12 +32,19 @@ const Item = class {
         this.crit = crit;
         this.lethality = lethality;
         this.attackSpeed = attackSpeed;
+        this.armorPen = armorPen;
+        this.magicPen = magicPen;
         this.armor = armor;
         this.MR = MR;
+        this.tenacity = tenacity;
         this.MS = MS;
         this.health = health;
+        this.healthRegen = healthRegen;
         this.mana = mana;
+        this.manaRegen = manaRegen;
         this.haste = haste;
+        this.lifesteal = lifesteal;
+        this.healShieldPower = healShieldPower;
         this.cost = cost;
         this.image = image;
         this.passives = passives;
