@@ -1,48 +1,56 @@
-input,
-ul,
-li {
+.inputBox,
+.itemList,
+.item {
     background-color: #3B3B3B;
 }
 
-input {
-    width: calc(250px - 2%);
-    height: 40px;
+.inputContainer {
+    background: linear-gradient(#06B0AE, #026F8C);
+    position: relative;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.inputBox {
+    width: calc(360px - 2%);
+    height: 50px;
     border: none;
     padding: 0;
     padding-left: 2%;
+    font-size: 16px;
 }
-    input:hover,
-    input:focus {
+    .inputBox:hover,
+    .inputBox:focus {
         outline: none;
     }
 
-ul {
+.itemList {
     list-style: none;
-    width: 250px;
+    width: 360px;
     max-height: 300px;
     overflow-y: auto;
     overflow-x: hidden;
     position: fixed;
-    margin-top: 45px;
+    margin-top: 60px;
     padding: 0;
 }
 
-li {
-    padding: 4%;
+.item {
+    padding: 3% 4%;
     width: 100%;
 }
-    li:hover {
+    .item:hover {
         background-color: #525252;
         cursor: pointer;
     }
 
-li > div {
+.item > div {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-img {
+.itemImg {
     height: 40px;
     border-radius: 8px;
 }

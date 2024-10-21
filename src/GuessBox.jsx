@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
-import './GuessBox.css';
+import styles from './GuessBox.module.css';
 
-function GuessBox({ items }) {
+function GuessBox({ items, handleGuess, showIcons=true }) {
   const [filter, setFilter] = useState('');
   const [showSuggestions, setShowSuggestions] = useState(false);
   const wrappedRef = useRef(null);
@@ -14,6 +14,12 @@ function GuessBox({ items }) {
     return items.filter(item => item.name.toLowerCase().replace(/\W/g, '')
       .startsWith(filter.toLowerCase().replace(/\W/g, '')));
   };
+
+  const handleClickOutside = (e) => {
+    if(wrappedRef.current && !wrappedRef.current.contains(e.target)) {
+      setShowSuggestions(false);
+    }
+  }
 
   const handleOnChange = (e) => {
     setFilter(e.target.value);
@@ -28,18 +34,13 @@ function GuessBox({ items }) {
   };
 
   const submitGuess = (item) => {
+    handleGuess(item);
     items.splice(items.indexOf(item), 1);
     setFilter('');
-    // TODO: Callback to parent
   };
 
-  const handleClickOutside = (e) => {
-    if(wrappedRef.current && !wrappedRef.current.contains(e.target)) {
-      setShowSuggestions(false);
-    }
-  }
-
   useEffect(() => {
+    console.log(styles);
     document.addEventListener('mousedown', handleClickOutside);
 
     return () => {
@@ -47,33 +48,44 @@ function GuessBox({ items }) {
     }
   }, []);
 
-  return ( 
-    <>
-      <div ref={wrappedRef}>
+  return (
+    <div ref={wrappedRef}>
+      <div
+        className={styles.inputContainer}
+      >
         <input
-          placeholder="Type an item name..."
+          className={styles.inputBox}
+          placeholder='Type an item name...'
           onChange={handleOnChange}
           onKeyDown={checkEnterPressed}
           onFocus={() => setShowSuggestions(true)}
           value={filter}
         />
-        {showSuggestions &&
-          <ul>
-            {getItemsByFilter().map((item, index) => (
-              <li
-                key={index}
-                onClick={() => submitGuess(item)}
-              >
-                <div>
-                  <img src={item.image} />
-                  {item.name}
-                </div>
-              </li>
-            ))}
-          </ul>
-        }
       </div>
-    </>
+      {showSuggestions &&
+        <ul
+          className={styles.itemList}
+        >
+          {getItemsByFilter().map((item, index) => (
+            <li
+              className={styles.item}
+              key={index}
+              onClick={() => submitGuess(item)}
+            >
+              <div>
+                {showIcons && 
+                  <img 
+                    className={styles.itemImg}
+                    src={item.image} 
+                  />
+                }
+                {item.name}
+              </div>
+            </li>
+          ))}
+        </ul>
+      }
+    </div>
   );
 }
 
